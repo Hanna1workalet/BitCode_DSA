@@ -1,4 +1,0 @@
-k = int(input())
-rooms = list(map(int, input().split()))
-
-print((k * sum(set(rooms)) - sum(rooms)) // (k - 1))
